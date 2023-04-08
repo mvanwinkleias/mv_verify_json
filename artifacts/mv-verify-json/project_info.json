@@ -1,0 +1,13 @@
+{
+   "AUTOMATION_GROUP" : "iasnetauto",
+   "package_name" : "mv-verify-json",
+   "BASE_DIR" : "/opt/IAS",
+   "AUTOMATION_USER" : "iasnetauto",
+   "installed_directory_layout" : "project_directories-full_project.gmk",
+   "summary" : "Scripts to verify json",
+   "ticket" : "",
+   "wiki_page" : "",
+   "project_dir" : "mv_verify_json",
+   "USE_AUTOMATION_PERMISSIONS" : 0,
+   "project_name" : "mv_verify_json"
+}

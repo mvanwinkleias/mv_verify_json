@@ -1,0 +1,23 @@
+# Build with "snapcraft" in the root of this directory.
+# Then, sudo snap install --devmode mv-verify-json_<version>_<arch>.snap
+
+name: mv-verify-json
+version: '0.1'
+summary: Scripts to verify json
+description: |
+    Ticket URL: 
+    Wiki Page: 
+
+grade: stable
+confinement: devmode
+base: core18
+
+# apps:
+#     mv-verify-json_hello.sh:
+#         command: src/bin/mv-verify-json_hello.sh
+
+parts:
+    snaptest1:
+        plugin: dump
+        source: ./src
+
